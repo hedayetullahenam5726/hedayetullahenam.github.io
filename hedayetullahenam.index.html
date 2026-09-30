@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Hedayetullah Enam — ইসলাম, কুরআন-হাদিস, আরবি শিক্ষা ও জ্ঞানচর্চা।">
+<title>Hedayetullah Enam | Islamic & Learning Journey</title>
+<style>
+:root{
+  --bg:#07110d; --card:#0d1b15; --card2:#10251c; --gold:#d9b86c;
+  --text:#f5f2e8; --muted:#b8c1ba; --line:rgba(217,184,108,.22);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:system-ui,-apple-system,"Noto Sans Bengali",sans-serif;
+  background:radial-gradient(circle at 80% 10%,#183525 0,#07110d 38%,#050b08 100%);
+  color:var(--text);line-height:1.75;
+}
+a{color:inherit;text-decoration:none}
+.container{width:min(1100px,92%);margin:auto}
+nav{
+  position:fixed;top:0;left:0;right:0;z-index:10;
+  backdrop-filter:blur(14px);background:rgba(5,11,8,.72);
+  border-bottom:1px solid var(--line)
+}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:800;letter-spacing:.5px;color:var(--gold)}
+.navlinks{display:flex;gap:22px;font-size:14px;color:var(--muted)}
+.navlinks a:hover{color:var(--gold)}
+.hero{min-height:100vh;display:grid;place-items:center;text-align:center;padding:110px 0 70px}
+.badge{display:inline-block;border:1px solid var(--line);background:rgba(217,184,108,.06);
+padding:7px 15px;border-radius:999px;color:var(--gold);font-size:13px;margin-bottom:20px}
+h1{font-size:clamp(42px,8vw,82px);line-height:1.05;letter-spacing:-2px}
+.hero h1 span{color:var(--gold)}
+.hero p{max-width:700px;margin:22px auto;color:var(--muted);font-size:18px}
+.btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:28px}
+.btn{padding:11px 20px;border-radius:12px;border:1px solid var(--line);background:var(--gold);color:#111;font-weight:700}
+.btn.alt{background:transparent;color:var(--text)}
+section{padding:80px 0}
+.section-title{text-align:center;margin-bottom:38px}
+.section-title h2{font-size:34px}
+.section-title p{color:var(--muted);margin-top:5px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{
+  background:linear-gradient(145deg,rgba(16,37,28,.95),rgba(10,23,17,.95));
+  border:1px solid var(--line);border-radius:20px;padding:25px;
+  box-shadow:0 12px 40px rgba(0,0,0,.18)
+}
+.card .icon{font-size:28px;margin-bottom:10px}
+.card h3{margin-bottom:7px;color:var(--gold)}
+.card p{color:var(--muted);font-size:15px}
+.quote{
+  border-left:3px solid var(--gold);padding:25px 28px;
+  background:rgba(217,184,108,.05);border-radius:0 18px 18px 0;
+  max-width:850px;margin:auto;text-align:center
+}
+.arabic{font-family:"Times New Roman",serif;font-size:28px;direction:rtl;margin-bottom:10px}
+.quote p{color:var(--muted)}
+.profile{display:grid;grid-template-columns:1fr 1.4fr;gap:35px;align-items:center}
+.profile-box{
+  min-height:320px;border:1px solid var(--line);border-radius:25px;
+  display:grid;place-items:center;background:linear-gradient(145deg,#11291f,#07110d)
+}
+.initial{font-size:100px;color:var(--gold);font-weight:900}
+.tags{display:flex;flex-wrap:wrap;gap:9px;margin-top:20px}
+.tag{border:1px solid var(--line);padding:6px 12px;border-radius:999px;color:var(--muted);font-size:13px}
+.social{display:flex;gap:12px;flex-wrap:wrap;margin-top:22px}
+.social a{padding:10px 14px;border:1px solid var(--line);border-radius:10px}
+.social a:hover{border-color:var(--gold);color:var(--gold)}
+footer{border-top:1px solid var(--line);padding:35px 0;text-align:center;color:var(--muted)}
+@media(max-width:750px){
+ .navlinks{display:none}.grid{grid-template-columns:1fr}.profile{grid-template-columns:1fr}
+ h1{letter-spacing:-1px}.hero p{font-size:16px}
+}
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="container nav">
+    <a class="logo" href="#home">Hedayetullah Enam</a>
+    <div class="navlinks">
+      <a href="#about">আমার সম্পর্কে</a>
+      <a href="#interests">আগ্রহ</a>
+      <a href="#islam">ইসলাম</a>
+      <a href="#study">শিক্ষা</a>
+      <a href="#contact">যোগাযোগ</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero" id="home">
+  <div class="container">
+    <div class="badge">بِسْمِ اللهِ الرَّحْمٰنِ الرَّحِيْمِ</div>
+    <h1>Hedayetullah <span>Enam</span></h1>
+    <p>
+      জ্ঞান, ইসলাম ও আত্মউন্নতির পথে একটি চলমান যাত্রা—
+      কুরআন ও হাদিস শেখা, আরবি শেখা এবং প্রতিদিন নিজেকে আরও ভালো করার চেষ্টা।
+    </p>
+    <div class="btns">
+      <a class="btn" href="#about">আমার সম্পর্কে</a>
+      <a class="btn alt" href="#islam">ইসলামিক জার্নি</a>
+    </div>
+  </div>
+</header>
+
+<section id="about">
+<div class="container">
+  <div class="section-title">
+    <h2>আমার সম্পর্কে</h2>
+    <p>একটি ছোট পরিচয়</p>
+  </div>
+  <div class="profile">
+    <div class="profile-box"><div class="initial">HE</div></div>
+    <div>
+      <h2>হেদায়েতুল্লাহ এনাম</h2>
+      <p style="color:var(--muted);margin-top:12px">
+        আমি একজন শিক্ষার্থী ও জ্ঞানসন্ধানী। ইসলামের মৌলিক বিষয়গুলো কুরআন ও সহিহ হাদিসের
+        আলোকে শেখা, আরবি ভাষায় দক্ষ হওয়া এবং উপকারী জ্ঞান অর্জন করা আমার আগ্রহের অংশ।
+      </p>
+      <div class="tags">
+        <span class="tag">ইসলাম</span><span class="tag">কুরআন</span>
+        <span class="tag">হাদিস</span><span class="tag">আরবি</span>
+        <span class="tag">শিক্ষা</span><span class="tag">জ্ঞানচর্চা</span>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="islam">
+<div class="container">
+  <div class="section-title">
+    <h2>ইসলাম ও জ্ঞানচর্চা</h2>
+    <p>কুরআন ও সুন্নাহ থেকে শেখার আগ্রহ</p>
+  </div>
+  <div class="quote">
+    <div class="arabic">وَقُلْ رَبِّ زِدْنِي عِلْمًا</div>
+    <strong>“হে আমার রব, আমার জ্ঞান বৃদ্ধি করুন।”</strong>
+    <p>— সূরা ত্ব-হা, ২০:১১৪</p>
+  </div>
+  <div class="grid" style="margin-top:22px">
+    <article class="card"><div class="icon">📖</div><h3>কুরআন</h3><p>আয়াতের অর্থ, ব্যাখ্যা ও জীবনে তার শিক্ষা বোঝার চেষ্টা।</p></article>
+    <article class="card"><div class="icon">🕌</div><h3>হাদিস</h3><p>সহিহ সূত্র থেকে নবী মুহাম্মদ সাল্লাল্লাহু আলাইহি ওয়াসাল্লামের সুন্নাহ শেখা।</p></article>
+    <article class="card"><div class="icon">🌙</div><h3>আখিরাত</h3><p>দুনিয়ার সাময়িক জীবনের পাশাপাশি আখিরাতের জন্য নিজেকে প্রস্তুত করার চিন্তা।</p></article>
+  </div>
+</div>
+</section>
+
+<section id="interests">
+<div class="container">
+  <div class="section-title"><h2>আমার আগ্রহ</h2><p>যেসব বিষয়ে শিখতে ও কাজ করতে ভালো লাগে</p></div>
+  <div class="grid">
+    <article class="card"><div class="icon">🕋</div><h3>ইসলামিক স্টাডি</h3><p>আকিদাহ, ইবাদত, কুরআন-হাদিস ও সুন্নাহভিত্তিক জ্ঞান।</p></article>
+    <article class="card"><div class="icon">🗣️</div><h3>আরবি ভাষা</h3><p>আরবি বাক্য, উচ্চারণ, কথোপকথন ও কুরআনের ভাষা শেখার অনুশীলন।</p></article>
+    <article class="card"><div class="icon">💻</div><h3>ওয়েব ও প্রযুক্তি</h3><p>HTML, ওয়েবসাইট, ডিজাইন এবং আধুনিক প্রযুক্তি নিয়ে শেখা ও পরীক্ষা করা।</p></article>
+    <article class="card"><div class="icon">📱</div><h3>মোবাইল প্রযুক্তি</h3><p>স্মার্টফোন ক্যামেরা, ব্যাটারি, সফটওয়্যার ও ব্যবহারিক প্রযুক্তি নিয়ে আগ্রহ।</p></article>
+    <article class="card"><div class="icon">🎨</div><h3>ডিজাইন</h3><p>ইসলামিক পোস্টার, প্রোফাইল ছবি ও সামাজিক যোগাযোগমাধ্যমের ভিজ্যুয়াল তৈরি।</p></article>
+    <article class="card"><div class="icon">📚</div><h3>পড়াশোনা</h3><p>কলেজ পর্যায়ের পড়াশোনা, গণিত ও বিজ্ঞানভিত্তিক বিষয় শেখার ধারাবাহিকতা।</p></article>
+  </div>
+</div>
+</section>
+
+<section id="study">
+<div class="container">
+  <div class="section-title"><h2>শিক্ষা</h2><p>Learning never stops.</p></div>
+  <div class="grid">
+    <article class="card"><h3>গণিত</h3><p>উচ্চতর গণিত ও ত্রিকোণমিতির মতো বিষয় নিয়ে নিয়মিত অনুশীলন।</p></article>
+    <article class="card"><h3>বিজ্ঞান</h3><p>বিজ্ঞানভিত্তিক ধারণা বুঝে শেখা এবং বাস্তব উদাহরণের সঙ্গে মিলিয়ে দেখা।</p></article>
+    <article class="card"><h3>ভাষা</h3><p>বাংলার পাশাপাশি আরবি শেখা এবং দৈনন্দিন আরবি কথোপকথনের অনুশীলন।</p></article>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+  <div class="section-title"><h2>আমার সঙ্গে যুক্ত থাকুন</h2><p>সামাজিক যোগাযোগমাধ্যম</p></div>
+  <div class="card" style="max-width:700px;margin:auto;text-align:center">
+    <h3>Hedayetullah Enam</h3>
+    <p>ইসলাম, শিক্ষা ও জ্ঞানচর্চার কনটেন্টের জন্য যুক্ত হতে পারেন।</p>
+    <div class="social">
+      <a href="https://www.instagram.com/hedayetullahenam5726" target="_blank">Instagram</a>
+      <a href="https://www.youtube.com/@hedayetullahenam5726" target="_blank">YouTube</a>
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+    </div>
+  </div>
+</div>
+</section>
+
+<footer>
+  <div class="container">
+    <p>© <span id="year"></span> Hedayetullah Enam</p>
+    <p>“رَبِّ زِدْنِي عِلْمًا” — হে আমার রব, আমার জ্ঞান বৃদ্ধি করুন।</p>
+  </div>
+</footer>
+
+<script>document.getElementById("year").textContent=new Date().getFullYear();</script>
+</body>
+</html>
